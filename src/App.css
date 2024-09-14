@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8e1;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #ffecb3;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover; 
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #ff6f00;
+    margin-bottom: 20px;
+}
+
+.desc {
+    width: 300px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #6d4c41;
+    line-height: 1.5;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #ff7043;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.button:hover {
+    background-color: #e64a19;
+}
+
+.button-minus {
+    padding: 10px 20px;
+    background-color: #ff7043;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.button-minus:hover {
+    background-color: #e64a19;
+}
+
+.Zakazlar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
